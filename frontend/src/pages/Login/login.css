@@ -1,0 +1,108 @@
+body  {  		
+	background: #d8f2f0;  
+	}
+
+#login-page  {  	
+	margin: 1em auto;  	
+	width: 900px;  	
+	}  
+
+.logo  {  
+    float: left;
+    margin: 1em auto; 
+    width: 400px;  	
+
+    }
+
+.login-main  {  	
+    float: right;  	
+    width: 340px;  
+    height: 560px;	
+
+    }
+
+h1 {
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: 	#e96151;
+    font: 600 40px Nunito, sans-serif;
+    display: flex;
+    }
+
+fieldsetLogin {
+    float: left;
+    width: 340px;
+    border: 0px solid rgb(199, 195, 195);
+    outline: none;
+    display: block; 
+    }
+
+.inputtextLogin {
+    width: 320px;
+    height: 50px;
+    background: #F5F8FA;
+    border: 1px solid rgb(199, 195, 195);
+    outline: none;
+    display: flex;
+    border-radius: 10px;
+    }
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+    display: block;
+    }
+
+label{
+    padding-left: 20px;
+    font: 600 15px Nunito, sans-serif;
+    }
+
+.login-main a{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 230px;
+    font: 500 15px Nunito, sans-serif;
+    }
+
+p {
+    padding-left: 10px;
+}
+
+.imagefloat{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    }
+
+.imagelogin{  	
+    padding-top: 80px;
+    padding-left: 0px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    }
+
+.button-Login{
+    float: center;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    background: #e96151;
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 18px Nunito, sans-serif;
+    transition: background-color 0.2s;
+    }
+
+.button-Login:hover {
+    background: #FFFFFF;
+    color: #e96151;
+}
